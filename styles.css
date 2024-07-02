@@ -14,6 +14,7 @@
 
 .header__wrapper {
   padding: 60px 95px;
+  width: 1750px;
 
   background: radial-gradient(#ffffff, #eeeeee);
   border-radius: 60px;
@@ -215,6 +216,7 @@ nav {
 
 .wrapper__main {
   height: max-content;
+  width: 1750px;
 
   margin: 150px 0;
 
@@ -374,6 +376,7 @@ nav {
 
 .catalog__container {
   height: max-content;
+  width: 1750px;
 
   display: flex;
   gap: 50px;
@@ -537,6 +540,7 @@ nav {
 
 .cards__form__container {
   height: max-content;
+  width: 1750px;
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -702,6 +706,7 @@ form input {
 
 .carousel__container {
   height: max-content;
+  width: 1750px;
 
   display: flex;
   align-items: center;
@@ -777,6 +782,7 @@ form input {
 
 .footer__wrapper {
   height: max-content;
+  width: 1750px;
 
   display: flex;
   align-items: center;

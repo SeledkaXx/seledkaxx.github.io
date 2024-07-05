@@ -14,6 +14,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  var dropbtn = document.querySelector(".dropbtn");
+  var headerNavList = document.querySelector(".header__nav-list");
+
+  dropbtn.addEventListener("click", function () {
+    headerNavList.classList.toggle("show");
+  });
+
+  // Закрываем выпадающее меню, если пользователь кликнет вне его области
+  window.onclick = function (event) {
+    if (!event.target.matches(".dropbtn")) {
+      if (headerNavList.classList.contains("show")) {
+        headerNavList.classList.remove("show");
+      }
+    }
+  };
+});
+
 //
 
 document.addEventListener("DOMContentLoaded", function () {

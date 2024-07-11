@@ -3220,7 +3220,7 @@ footer {
 
 /* 375px */
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   .page {
     margin: 5% 4%;
   }
